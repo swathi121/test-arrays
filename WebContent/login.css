@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+#top {
+    position: absolute;
+    border-bottom: thick;
+}
+h1, p {
+    margin: 0;
+    padding: 0.3em 0;
+}
+#container {
+    min-height: 100%;
+    margin-top: 20px;
+    margin-bottom: -36px;
+    margin: 0px;
+}
+* html #container {
+    height: 100%;
+}
+#footer-spacer {
+    height: 36px;
+}
+#footer {
+    border-top: 1px solid #000;
+    height: 35px;
+}
